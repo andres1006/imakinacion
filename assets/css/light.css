@@ -105,14 +105,15 @@ a:hover {
 }
 
 .line-between {
-    height: 100px;
-    width: 1px;
+    height: 60px;
+    width: 8px;
     position: absolute;
     display: block;
-    margin-top: -50px;
-    transform: translate(-50%, -0%);
+    margin-top: -40px;
+    transform: rotate(46deg);
+   /*  transform: translate(-50%, -0%); */
     left: 50%;
-    background: #4C76B0;
+    background: #61C3D7;
 }
 
 .color-white {
@@ -329,26 +330,28 @@ body {
     position: absolute;
     width: 60%;
     height: calc(100% + 200px);
-    background: #fdfdfd;
+    background: #f4fafb;
     opacity: 1;
     right: 0;
     top: 0;
     margin-top: -100px;
     display: block;
     z-index: -3;
+    border-radius: 40px 0px 0px 40px;
 }
 
 .left-bg {
     position: absolute;
     width: 60%;
     height: calc(100% + 200px);
-    background: #fdfdfd;
+    background: #f4fafb;
     opacity: 1;
     left: 0;
     top: 0;
     margin-top: -100px;
     display: block;
     z-index: -3;
+    border-radius: 0px 40px 40px 0px;
 }
 
 
@@ -453,6 +456,7 @@ video {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    border-radius: 40px 0px 0px 500px;
 }
 
 .square-overlay {
@@ -803,6 +807,7 @@ a.menu-link.active {
 
 .project-section {
     position: relative;
+    cursor: pointer;
 }
 
 .project-content img {
@@ -810,6 +815,7 @@ a.menu-link.active {
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
     box-shadow: 0px 9px 31px 6px rgba(0, 0, 0, .2);
+
 }
 
 .project-content {
@@ -882,9 +888,9 @@ span.number {
    ========================================================================== */
 
 .about-overlay {
-    background-image: -moz-linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(255, 69, 69) 100%);
-    background-image: -webkit-linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(255, 69, 69) 100%);
-    background-image: -ms-linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(255, 69, 69) 100%);
+    background-image: -moz-linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(69, 190, 255) 100%);
+    background-image: -webkit-linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(69, 174, 255) 100%);
+    background-image: -ms-linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(69, 171, 255) 100%);
     opacity: .5;
     height: 100%;
     width: 100%;

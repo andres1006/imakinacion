@@ -293,6 +293,7 @@ p.sub-title {
 body {
     overflow-x: hidden;
     background: url('../img/bg/3x/bg@3x.png') center center no-repeat;
+    background-size: 100% 100%;
     font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
@@ -1282,7 +1283,7 @@ a.phone {
 }
 
 .bg-contact {
-    top: -50px;
+    top: -65px;
     position: absolute;
     height: calc(100% + 92px);
     width: 100%;

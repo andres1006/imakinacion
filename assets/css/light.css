@@ -917,7 +917,7 @@ span.number {
     position: absolute;
     height: 100%;
     width: 100%;
-    background: url('../img/bg/3x/Recurso\ 4@3x.png');
+    background: url('../img/bg/SVG/bg_4.svg');
     background-repeat: no-repeat;
     background-size: 100% calc(100% - 200px);
 }
@@ -993,7 +993,7 @@ span.number {
     margin-top: 195px;
     background-color: #e6e25e;
     width: 100%;
-    background: url('../img/bg/3x/Recurso\ 8@3x.png');
+    background: url('../img/bg/SVG/Recurso\ 8.svg');
     background-repeat: no-repeat;
     background-size: 40% ;
 }
@@ -1287,9 +1287,9 @@ a.phone {
     position: absolute;
     height: calc(100% + 92px);
     width: 100%;
-    background: url('../img/bg/3x/Recurso\ 7@3x.png');
+    background: url('../img/bg/SVG/Recurso\ 7.svg');
     background-repeat: no-repeat;
-    background-size: 100% calc(100% + 50px);
+    background-size: cover;
 }
 
 

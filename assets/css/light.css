@@ -917,9 +917,9 @@ span.number {
     position: absolute;
     height: 100%;
     width: 100%;
-    background: url('../img/bg/SVG/bg_4.svg');
+    background: url('../img/bg/SVG/bg_4.svg') center;
     background-repeat: no-repeat;
-    background-size: 100% calc(100% - 200px);
+    background-size: cover;
 }
 
 

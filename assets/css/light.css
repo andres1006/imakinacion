@@ -38,7 +38,7 @@ Author              : Cingunt-Themes
     height: 100%;
     position: fixed;
     z-index: 99999;
-    background: #fff;
+    background: #DADBDA;
     top: 0;
     left: 0;
     right: 0;
@@ -61,11 +61,11 @@ a:hover {
 }
 
 .bg-main {
-    background: #fff;
+    background: #ffffff;
 }
 
 .bg-second {
-    background: #eee;
+    background: #eaecea;
 }
 
 .overlay-start {
@@ -85,7 +85,7 @@ a:hover {
 }
 
 .bg-cyan {
-    background: #fff;
+    background: #DADBDA;
 }
 
 .bg-cyan::before {
@@ -96,7 +96,7 @@ a:hover {
     left: 0;
     width: 60%;
     height: calc(100% + 20px);
-    background-color: #f1f4f6;
+    background-color: #c1c1c1;
 }
 
 .between {
@@ -292,7 +292,7 @@ p.sub-title {
 
 body {
     overflow-x: hidden;
-    background-color: #fff;
+    background: url('../img/bg/3x/bg@3x.png') center center no-repeat;
     font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
@@ -451,12 +451,18 @@ body {
     background-size: cover;
 }
 
+.div-video {
+    height: 100vh;
+    background-color: #e6e25e;
+}
+
 video {
     position: absolute;
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius: 40px 0px 0px 500px;
+    border-radius: 0px  0px 500px 0px;
+     box-shadow: 0px 9px 31px 6px rgba(0, 0, 0, .2);
 }
 
 .square-overlay {
@@ -482,20 +488,21 @@ video {
 }
 
 .btn-main {
+    border-radius: 30px;
     margin: 0 auto;
     text-align: center;
     letter-spacing: 3px;
     position: relative;
-    border: 1px solid #4C76B0;
+    background-color:  #4C76B0;
     text-transform: uppercase;
     font-size: 12px;
     padding: 15px 34px;
-    color: #000;
-    transition: all ease .5s;
+    color: #ffffff;
+    transition: rgb(255, 255, 255) all ease .5s;
 }
 
 .btn-main:hover {
-    color: #4C76B0;
+    color: #edf4fd;
 }
 
 .btn-main:before {
@@ -513,6 +520,12 @@ video {
 
 .btn-main:hover:before {
     left: 100%;
+}
+
+.btn-hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
 }
 
 
@@ -680,7 +693,6 @@ a.menu-link.active {
 
 .social {
     position: absolute;
-    right: 3%;
     z-index: 3;
 }
 
@@ -713,7 +725,7 @@ a.menu-link.active {
     margin: 0;
     padding: 0;
     font-size: 18px;
-    color: #000;
+    color: #ffffff;
     line-height: 40px;
 }
 
@@ -800,6 +812,14 @@ a.menu-link.active {
     margin: 10px 0;
 }
 
+.bg-service-form {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: url('../img/bg/3x/Recurso\ 2@3x.png');
+    background-repeat: no-repeat;
+    background-size: 100% ;
+}
 
 /* ==========================================================================
                             [04] Work
@@ -881,6 +901,26 @@ span.number {
 
 }
 
+.bg-project-title {
+    margin-top: 2%;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: url('../img/bg/3x/Recurso\ 3@3x.png');
+    background-repeat: no-repeat;
+    background-size: 100% ;
+}
+
+.bg-project {
+    margin-top: 200px;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: url('../img/bg/3x/Recurso\ 4@3x.png');
+    background-repeat: no-repeat;
+    background-size: 100% calc(100% - 200px);
+}
+
 
 
 /* ==========================================================================
@@ -888,9 +928,9 @@ span.number {
    ========================================================================== */
 
 .about-overlay {
-    background-image: -moz-linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(69, 190, 255) 100%);
-    background-image: -webkit-linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(69, 174, 255) 100%);
-    background-image: -ms-linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(69, 171, 255) 100%);
+    background-image: -moz-linear-gradient(90deg, rgb(58, 243, 154) 0%, rgb(40, 167, 106) 100%);
+    background-image: -webkit-linear-gradient(90deg, rgb(58, 243, 154) 0%, rgb(40, 167, 106) 100%);
+    background-image: -ms-linear-gradient(90deg, rgb(58, 243, 154) 0%, rgb(40, 167, 106) 100%);
     opacity: .5;
     height: 100%;
     width: 100%;
@@ -900,7 +940,6 @@ span.number {
 }
 
 .about-img {
-
     box-shadow: 0px 9px 31px 6px rgba(0, 0, 0, .2);
 }
 
@@ -938,6 +977,24 @@ span.number {
 
 .about {
     position: relative;
+}
+
+.bg-about {
+    position: absolute;
+    height: 200px;
+    background-color: #e6e25e;
+    width: 100%;
+}
+
+.bg-about-form {
+    position: absolute;
+    height: 100%;
+    margin-top: 195px;
+    background-color: #e6e25e;
+    width: 100%;
+    background: url('../img/bg/3x/Recurso\ 8@3x.png');
+    background-repeat: no-repeat;
+    background-size: 40% ;
 }
 
 
@@ -1224,6 +1281,16 @@ a.phone {
 
 }
 
+.bg-contact {
+    top: -50px;
+    position: absolute;
+    height: calc(100% + 92px);
+    width: 100%;
+    background: url('../img/bg/3x/Recurso\ 7@3x.png');
+    background-repeat: no-repeat;
+    background-size: 100% calc(100% + 50px);
+}
+
 
 /* ==========================================================================
                             [10] Detail Project
@@ -1297,3 +1364,53 @@ a.phone {
     background: url('../img/work-detail/3.jpg') center center no-repeat;
     z-index: -4;
 }
+
+
+
+/* ==========================================================================
+                            [12] Form
+   ========================================================================== */
+
+/* Style inputs with type="text", select elements and textareas */
+
+label {
+    font-weight: 600;
+    color: #000;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+input[type=text], select, textarea  {
+    width: 100%; /* Full width */
+    padding: 8px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-bottom: 10px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+input[type=email], select, textarea  {
+    width: 100%; /* Full width */
+    padding: 8px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-bottom: 10px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #CA4F2B;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    width: 200px;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #a24225;
+  }
+  

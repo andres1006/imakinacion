@@ -463,7 +463,8 @@ video {
     height: 100%;
     object-fit: cover;
     border-radius: 0px  0px 500px 0px;
-     box-shadow: 0px 9px 31px 6px rgba(0, 0, 0, .2);
+    box-shadow: 0px 9px 31px 6px rgba(0, 0, 0, .2);
+    background-color: #e6e25e;
 }
 
 .square-overlay {
@@ -802,8 +803,8 @@ a.menu-link.active {
 .service-line {
     margin-top: 60px;
     width: 100px;
-    height: 3px;
-    background: #4C76B0;
+    height: 2px;
+    background: #CA4F2B;
 }
 
 .service-list li {
@@ -836,13 +837,23 @@ a.menu-link.active {
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
     box-shadow: 0px 9px 31px 6px rgba(0, 0, 0, .2);
-
 }
 
 .project-content {
     padding: 0 20px;
     margin: 0 0 50px 0;
+    filter: brightness(0.5);
+}
+.project-content:hover {
+    filter: brightness(1);
+    transition: all 0.3s ease;
+}
 
+.img-project > video {
+    position: relative;
+    border-radius: 0px;
+    aspect-ratio: 1/1;
+    background-color: #c2c2c2;
 }
 
 .project-content:hover .img-project::after {
@@ -875,8 +886,8 @@ span.number {
 
 .detail-project {
     position: absolute;
-    bottom: 20px;
-    left: 40px;
+    bottom: 45%;
+    left: 30%;
     color: #fff;
 }
 
@@ -887,7 +898,6 @@ span.number {
     font-weight: 900;
     position: relative;
     overflow: hidden;
-    margin-bottom: 5px;
     letter-spacing: 1px;
     color: #4C76B0;
     padding: 0;

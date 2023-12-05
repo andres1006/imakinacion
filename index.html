@@ -58,14 +58,15 @@
                                     <div class="links text-center text-lg-left">
                                         <ul>
                                             <li><a class="menu-link active" href="#" data-scroll-nav="0">Inicio</a></li>
-                                            <li><a class="menu-link" href="#" data-scroll-nav="1">Acerca de nosotros</a>
+                                            <li><a class="menu-link" href="#" data-scroll-nav="1">Nosotros osotros</a>
                                             </li>
                                             <li><a class="menu-link" href="#" data-scroll-nav="2">Servicios</a></li>
-                                            <li><a class="menu-link" href="#" data-scroll-nav="3">Portfolio</a></li>
+                                            <li><a class="menu-link" href="#" data-scroll-nav="3">Proyectos</a></li>
                                             <!--                                 <li><a class="menu-link" href="#" data-scroll-nav="4">Nuestro trabajo</a></li>
                                             <li><a class="menu-link" href="#" data-scroll-nav="5">News</a></li> -->
-                                            <li><a class="menu-link" href="#" data-scroll-nav="6">Aliados</a></li>
-                                            <li><a class="menu-link" href="#" data-scroll-nav="7">Contacto</a></li>
+                                            <li><a class="menu-link" href="#" data-scroll-nav="6">Construyendo
+                                                    juntos</a></li>
+                                            <li><a class="menu-link" href="#" data-scroll-nav="7">Contáctanos</a></li>
                                         </ul>
                                     </div>
 
@@ -73,8 +74,9 @@
 
                                 <div class="col-lg-4 offset-lg-2 centered text-right">
                                     <div class="address-menu">
-                                        <h3>ADDRESS</h3>
-                                        <h4>Flower 03/11 Street Klaten, Central Java, Indonesia</h4>
+                                        <h3>Direccion</h3>
+                                        <h4>Sófocles 150 Oficina 001, Col. Polanco Sección III, Miguel Hidalgo 11540
+                                            México</h4>
                                     </div>
                                 </div>
                             </div>
@@ -140,21 +142,25 @@
                             <h2 id="title-nosotros">Nosotros</h2>
                         </div>
                         <div class="about-inner mt-30">
-                            <Inspiramos id="text-nosotros">Somos una agencia creativa, productora, estratega. Integrada por creadores apasionados de
-                                las mejores historias. 
-                                
-                                Inspiramos y conectamos a través de creatividad, innovación y la más alta calidad en cada
+                            <Inspiramos id="text-nosotros">Somos una agencia creativa, productora, estratega. Integrada
+                                por creadores apasionados de
+                                las mejores historias.
+
+                                Inspiramos y conectamos a través de creatividad, innovación y la más alta calidad en
+                                cada
                                 una de nuestras acciones.</p>
                         </div>
                         <div class="row ">
                             <div class="col-lg-6">
                                 <div class="mt-40 title-anim">
-                                    <a class="btn" href="#" data-scroll-nav="1" onclick="showMision()">NUESTRA MISIÓN</a>
+                                    <a class="btn" id="mision-a" href="#" data-scroll-nav="1"
+                                        onclick="showMision()">NUESTRA MISIÓN</a>
                                 </div>
                             </div>
                             <div class="col-lg-6">
                                 <div class="mt-40 title-anim">
-                                    <div id="vision-btn" class="btn" href="#" data-scroll-nav="1" onclick="showVision()">NUESTRA VISIÓN</div>
+                                    <a class="btn" id="vision-a" href="#" data-scroll-nav="1"
+                                        onclick="showVision()">NUESTRA VISIÓN</a>
                                 </div>
                             </div>
                         </div>
@@ -187,118 +193,151 @@
                 </div>
             </div>
 
-            <div  style="display: flex; flex-direction: row; overflow: hidden;" >
-                 <div id="carrusel-services-back" class="btn-back-carrusel-services" onclick="scrollStartElement()">
-                    mover atras
-                 </div> 
-                 <div id="carrusel-services" style="display: flex; flex-direction: row; overflow: hidden; scroll-behavior: smooth;" >
-                     <div class="col-lg-4 mt-30">
-                         <div class="service-item bg-main">
-                             <div class="service-icon text-center">
-                                 <img src="assets/img/service/3x/service-1@3x.png" alt="">
-                             </div>
-                             <div class="service-text">
-                                 <h3>Creativity</h3>
-                                 <p>Ideamos y creamos narrativas con objetivo y propósito, que <spam style="color:#CA4F2B;">
-                                         inspiren, emocionen y conecten</spam> a marcas y audiencias.</p>
-                                 <div class="service-line"></div>
-                                 <ul class="service-list">
-                                     <li> Big Idea / story telling</li>
-                                     <li> Art & design</li>
-                                     <li> Environment Creation</li>
-                                 </ul>
-                             </div>
-                         </div>
-                     </div>
-     
-     
-                     <div class="col-lg-4 mt-50">
-                         <div class="service-item bg-second">
-                             <div class="service-icon text-center">
-                                 <img src="assets/img/service/3x/service-2@3x.png" alt="">
-                             </div>
-                             <div class="service-text">
-                                 <h3>DEVELOPMENT</h3>
-                                 <p>Imaginación que hacemos realidad . Somos <spam style="color:#AE458D;">story tellers
-                                     </spam>, cuidamos y dominamos momentos
-                                     únicos. Generamos <spam style="color:#AE458D;">experiencias memorables</spam>.
-                                     Comunicamos key messages de la manera más
-                                     creativa, orgánica y profesional.</p>
-                                 <div class="service-line"></div>
-                                 <ul class="service-list">
-                                     <li>Product Launches</li>
-                                     <li>Awards Dinners & Celebration</li>
-                                     <li>Live Music Events</li>
-                                     <li>Press-conference </li>
-                                     <!--                                 <li>Conventions </li>
+            <div style="display: flex; flex-direction: row; overflow: hidden;">
+                <div id="carrusel-services-back" class="btn-back-carrusel"
+                    onclick="scrollEndElement('carrusel-services')">
+                    <img src="assets/img/btns/3x/btn-back@3x.png" alt="">
+                </div>
+                <div id="carrusel-services"
+                    style="display: flex; flex-direction: row; overflow: auto; scroll-behavior: smooth;">
+                    <div class="col-lg-4 mt-30">
+                        <div class="service-item bg-main">
+                            <div class="service-icon text-center">
+                                <img src="assets/img/service/3x/service-1@3x.png" alt="">
+                            </div>
+                            <div class="service-text">
+                                <h3>Creativity</h3>
+                                <p>Ideamos y creamos narrativas con objetivo y propósito, que <spam
+                                        style="color:#CA4F2B;">
+                                        inspiren, emocionen y conecten</spam> a marcas y audiencias.</p>
+                                <div class="service-line"></div>
+                                <ul class="service-list">
+                                    <li> Big Idea / story telling</li>
+                                    <li> Art & design</li>
+                                    <li> Environment Creation</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-4 mt-50">
+                        <div class="service-item bg-second">
+                            <div class="service-icon text-center">
+                                <img src="assets/img/service/3x/service-2@3x.png" alt="">
+                            </div>
+                            <div class="service-text">
+                                <h3>DEVELOPMENT</h3>
+                                <p>Imaginación que hacemos realidad . Somos <spam style="color:#AE458D;">story tellers
+                                    </spam>, cuidamos y dominamos momentos
+                                    únicos. Generamos <spam style="color:#AE458D;">experiencias memorables</spam>.
+                                    Comunicamos key messages de la manera más
+                                    creativa, orgánica y profesional.</p>
+                                <div class="service-line"></div>
+                                <ul class="service-list">
+                                    <li>Product Launches</li>
+                                    <li>Awards Dinners & Celebration</li>
+                                    <li>Live Music Events</li>
+                                    <li>Press-conference </li>
+                                    <!--                                 <li>Conventions </li>
                                      <li>Congress </li>
                                      <li>Virtual Events</li> -->
-                                 </ul>
-                             </div>
-                         </div>
-                     </div>
-     
-                     <div class="col-lg-4 mt-30">
-                         <div class="service-item bg-main">
-                             <div class="service-icon text-center">
-                                 <img src="assets/img/service/3x/service-3@3x.png" alt="">
-                             </div>
-                             <div class="service-text">
-                                 <h3>Marketing</h3>
-                                 <p>Ejecutamos <spam style="color:#64A973;">estrategias que generen conversaciones</spam>
-                                     marca-consumidor. Analizamos identidad, perfil y objetivos.User first. </p>
-                                 <div class="service-line"></div>
-                                 <ul class="service-list">
-                                     <li>Big Idea / story telling</li>
-                                     <li>Art & design</li>
-                                     <li>Environment Creation</li>
-                                 </ul>
-                             </div>
-                         </div>
-                     </div>
-     
-                     <div class="col-lg-4 mt-30">
-                         <div class="service-item bg-main">
-                             <div class="service-icon text-center">
-                                 <img src="assets/img/service/3x/service-1@3x.png" alt="">
-                             </div>
-                             <div class="service-text">
-                                 <h3>Creativity</h3>
-                                 <p>Ideamos y creamos narrativas con objetivo y propósito, que <spam style="color:#CA4F2B;">
-                                         inspiren, emocionen y conecten</spam> a marcas y audiencias.</p>
-                                 <div class="service-line"></div>
-                                 <ul class="service-list">
-                                     <li> Big Idea / story telling</li>
-                                     <li> Art & design</li>
-                                     <li> Environment Creation</li>
-                                 </ul>
-                             </div>
-                         </div>
-                     </div>
-     
-                     <div class="col-lg-4 mt-30">
-                         <div class="service-item bg-main">
-                             <div class="service-icon text-center">
-                                 <img src="assets/img/service/3x/service-1@3x.png" alt="">
-                             </div>
-                             <div class="service-text">
-                                 <h3>Creativity</h3>
-                                 <p>Ideamos y creamos narrativas con objetivo y propósito, que <spam style="color:#CA4F2B;">
-                                         inspiren, emocionen y conecten</spam> a marcas y audiencias.</p>
-                                 <div class="service-line"></div>
-                                 <ul class="service-list">
-                                     <li> Big Idea / story telling</li>
-                                     <li> Art & design</li>
-                                     <li> Environment Creation</li>
-                                 </ul>
-                             </div>
-                         </div>
-                     </div>
-                 </div>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
 
-                <div id="carrusel-services-next" class="btn-next-carrusel-services" onclick="scrollEndElement()">
-                    mover next
-                 </div>  
+                    <div class="col-lg-4 mt-30">
+                        <div class="service-item bg-main">
+                            <div class="service-icon text-center">
+                                <img src="assets/img/service/3x/service-3@3x.png" alt="">
+                            </div>
+                            <div class="service-text">
+                                <h3>Marketing</h3>
+                                <p>Ejecutamos <spam style="color:#64A973;">estrategias que generen conversaciones</spam>
+                                    marca-consumidor. Analizamos identidad, perfil y objetivos.User first. </p>
+                                <div class="service-line"></div>
+                                <ul class="service-list">
+                                    <li>Big Idea / story telling</li>
+                                    <li>Art & design</li>
+                                    <li>Environment Creation</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 mt-30">
+                        <div class="service-item bg-second">
+                            <div class="service-icon text-center">
+                                <img src="assets/img/service/3x/4@3x.png" alt="">
+                            </div>
+                            <div class="service-text">
+                                <h3>Digital</h3>
+                                <p>Conectamos realidad física con mundo digital. Implementamos tecnología de última
+                                    generación, llevando la comunicación a un sentido innovador.</p>
+                                <div class="service-line"></div>
+                                <ul class="service-list">
+                                    <li> Development VR </li>
+                                    <li> Augmented reality </li>
+                                    <li> Interactive software</li>
+                                    <li> Streaming </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 mt-30">
+                        <div class="service-item bg-main">
+                            <div class="service-icon text-center">
+                                <img src="assets/img/service/3x/5@3x.png" alt="">
+                            </div>
+                            <div class="service-text">
+                                <h3>Production</h3>
+                                <p>Creamos Experiencias sensoriales bajo la más alta calidad.</p>
+                                <div class="service-line"></div>
+                                <ul class="service-list">
+                                    <li> Audio</li>
+                                    <li> Video</li>
+                                    <li> Lighting</li>
+                                    <li> Scenography</li>
+                                    <li> Stands</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 mt-30">
+                        <div class="service-item bg-second">
+                            <div class="service-icon text-center">
+                                <img src="assets/img/service/3x/6@3x.png" alt="">
+                            </div>
+                            <div class="service-text">
+                                <h3>Video</h3>
+                                <p>Creamos historias digitales inmersivas. Generamos contenido audiovisual e interactivo
+                                    2D y 3D.
+                                </p>
+                                <div class="service-line"></div>
+                                <ul class="service-list">
+                                    <li> Spots</li>
+                                    <li> Tv Content </li>
+                                    <li> Social Media</li>
+                                    <li> Content Multimedia </li>
+                                    <li> Content</li>
+                                    <li> Corporate Video</li>
+                                    <li> Eye catcher</li>
+                                    <li> Video mapping</li>
+                                    <li> Infographic</li>
+                                    <li> Video Presentation</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="carrusel-services-next" class="btn-next-carrusel"
+                    onclick="scrollStartElement('carrusel-services')">
+                    <img src="assets/img/btns/3x/btn-next@3x.png" alt="">
+                </div>
 
             </div>
 
@@ -316,6 +355,7 @@
         <div class="bg-project-title"></div>
         <div class="bg-project"></div>
         <div class="container">
+
             <div class="row">
                 <div class="col-lg-12 mt-30">
                     <div class="title">
@@ -323,69 +363,93 @@
                     </div>
                 </div>
             </div>
-            <div class="row mt-50">
-                <!-- Project 07 -->
-                <div class="col-md-12 col-lg-6">
-                    <!--    <a href="project-detail-light.html"> -->
-                    <div class="project-content mt-40-lg ">
-                        <div class="img-project" style="height: 420px;">
-                            <video autoplay muted loop>
-                                <source src="assets/videos/Video-imakinacion.mp4" type="video/mp4">
-                            </video>
-                        </div>
-                    </div>
-                    <!--   </a> -->
+            <div style="display: flex;flex-direction: row;overflow: hidden; scroll-behavior: smooth">
+                <div id="carrusel-projects" class="btn-back-carrusel" onclick="scrollEndElement('carrusel-project')">
+                    <img src="assets/img/btns/3x/btn-back@3x.png" alt="">
                 </div>
 
-                <!-- Project 08 -->
-                <div class="col-md-12 col-lg-6">
-                    <!--   <a href="project-detail-light.html"> -->
-                    <div class="project-content mt-60-lg ">
-                        <div class="img-project">
-                            <img src="assets/img/portfolio/3x/project-2.1@3x.png" alt="">
+                <div id="carrusel-project"
+                    style="display: flex;flex-direction: row;overflow: auto; scroll-behavior: smooth">
+                    <div class="col-md-12 col-lg-6">
+                        <!--    <a href="project-detail-light.html"> -->
+                        <div class="project-content mt-40-lg ">
+                            <div class="img-project" style="height: 320px;">
+                                <video autoplay muted loop>
+                                    <source src="assets/videos/Video-imakinacion.mp4" type="video/mp4">
+                                </video>
+                            </div>
                         </div>
-                        <div class="detail-project">
-                            <h3 style="color: white; margin-left: 35px;">Miaw 2022</h3>
+                        <!--   </a> -->
+
+                        <!-- Project 08 -->
+                        <!--   <a href="project-detail-light.html"> -->
+                        <div class="project-content mt-60-lg ">
+                            <div class="img-project">
+                                <img src="assets/img/portfolio/3x/project-2.1@3x.png" alt="">
+                            </div>
+                            <div class="detail-project">
+                                <h3 style="color: white; margin-left: 35px;">Miaw 2022</h3>
+                            </div>
+                        </div>
+                        <!--   </a> -->
+                    </div>
+                    <!-- Project 07 -->
+
+                    <div class="col-md-12 col-lg-6">
+                        <!--  <a href="project-detail-light.html"> -->
+                        <div class="project-content mt-60-lg ">
+                            <div class="img-project">
+                                <img src="assets/img/portfolio/3x/project-3@3x.png" alt="">
+                            </div>
+                            <div class="detail-project">
+                                <h3 style="color: white;">KEO AMEX lounch</h3>
+                            </div>
+                            <!--  </a> -->
+                        </div>
+
+                        <!-- Project 08 -->
+                        <!--   <a href="project-detail-light.html"> -->
+                        <div class="project-content mt-60-lg">
+                            <div class="img-project">
+                                <img src="assets/img/portfolio/3x/project-4@3x.png" alt="">
+                            </div>
+                            <div class="detail-project">
+                                <h3 style="color: white;">Samsung FREESTYLE</h3>
+                            </div>
+                            <!--  </a> -->
                         </div>
                     </div>
-                    <!--   </a> -->
+                    <!-- Project 07 -->
+
+                    <div class="col-md-12 col-lg-6">
+                        <!-- Project 08 -->
+                        <!--   <a href="project-detail-light.html"> -->
+                        <div class="project-content mt-60-lg">
+                            <div class="img-project">
+                                <img src="assets/img/portfolio/3x/project-4@3x.png" alt="">
+                            </div>
+                            <div class="detail-project">
+                                <h3 style="color: white;">Samsung FREESTYLE</h3>
+                            </div>
+                            <!--  </a> -->
+                        </div>
+
+                        <div class="project-content mt-60-lg">
+                            <div class="img-project">
+                                <img src="assets/img/portfolio/3x/project-4@3x.png" alt="">
+                            </div>
+                            <div class="detail-project">
+                                <h3 style="color: white;">Samsung FREESTYLE</h3>
+                            </div>
+                            <!--  </a> -->
+                        </div>
+                    </div>
                 </div>
 
-                <!-- Project 07 -->
-                <div class="col-md-12 col-lg-6">
-                    <!--  <a href="project-detail-light.html"> -->
-                    <div class="project-content">
-                        <div class="img-project">
-                            <img src="assets/img/portfolio/3x/project-3@3x.png" alt="">
-                        </div>
-                        <div class="detail-project">
-                            <h3 style="color: white;">KEO AMEX lounch</h3>
-                        </div>
-                    </div>
-                    <!--  </a> -->
+                <div id="carrusel-projects-back" class="btn-back-carrusel"
+                    onclick="scrollStartElement('carrusel-project')">
+                    <img src="assets/img/btns/3x/btn-next@3x.png" alt="">
                 </div>
-
-                <!-- Project 08 -->
-                <div class="col-md-12 col-lg-6">
-                    <!--   <a href="project-detail-light.html"> -->
-                    <div class="project-content mt-60-lg">
-                        <div class="img-project">
-                            <img src="assets/img/portfolio/3x/project-4@3x.png" alt="">
-                        </div>
-                        <div class="detail-project">
-                            <h3 style="color: white;">Samsung FREESTYLE</h3>
-                        </div>
-                    </div>
-                    <!--  </a> -->
-                </div>
-
-
-                <!--  <div class="col-lg-12 text-center">
-                    <div class="mt-20">
-                        <a class="btn-main" href="single-portfolio-light.html">All Projects</a>
-                    </div>
-                </div> -->
-
             </div>
         </div>
     </section>
@@ -668,15 +732,15 @@
                         <div class="col-lg-12">
                             <div>
                                 <div>
-                                    <a class="mail" href="#" style="color: white;">info@imakinacion.mx</a>
+                                    <a class="mail" href="#" style="color: white;">contacto@imakinacion.mx</a>
                                 </div>
                                 <div class="mt-10">
                                     <a class="phone" href="#" style="color: white;">+52 (55) 4744 1213</a>
                                 </div>
-                                <div class="social mt-10">
-                                    <ul>
-                                        <li><a href="#"><i class="fab fa-instagram" aria-hidden="true"></i> </a></li>
-                                        <li><a href="#"><i class="fab fa-behance" aria-hidden="true"></i></a></li>
+                                <div class="social mt-10" >
+                                    <ul style="display: flex; flex-direction: column;">
+                                        <li><a href="#"><i class="fab fa-instagram" aria-hidden="true"></i>@imakinacion</a></li>
+                                        <li><a href="#"><i class="fab fa-behance" aria-hidden="true"></i>@imakinacion</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -709,20 +773,19 @@
 
                 <div class="col-lg-4 mt-40 centered">
                     <iframe width="100%" height="70%" frameborder="0" scrolling="no" marginheight="0" loading="lazy"
-                        marginwidth="0"
-                        src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=1%20Grafton%20Street,%20Dublin,%20Ireland+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a
-                            href="https://www.maps.ie/population/">Population Estimator map</a></iframe>
+                        src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=S%C3%B3focles%20150%20Oficina%20001,%20Col.%20Polanco%20Secci%C3%B3n%20III,%20Miguel%20Hidalgo%2011540%20M%C3%A9xico+(S%C3%B3focles%20150%20Oficina%20001,%20Col.%20Polanco%20Secci%C3%B3n%20III,%20Miguel%20Hidalgo%2011540%20M%C3%A9xico)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a
+                            href="https://www.maps.ie/population/">Imakinacion</a></iframe>
                     <!--  <img class="img-fluid" src="assets/img/news/2.jpg" alt="">  -->
                     <!-- <iframe src="[your unique google URL] " width="100%" height="60%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12 text-center mt-40">
+                <div class="copyright">
+                    <h3>2023 Imakinacion.</h3>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-lg-12 text-center mt-40">
-                    <div class="copyright">
-                        <h3>2023 Imakinacion.</h3>
-                    </div>
-                </div>
-            </div>
+        </div>
 
         </div>
 

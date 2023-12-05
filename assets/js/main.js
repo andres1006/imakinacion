@@ -778,22 +778,30 @@
 
 function showVision() {
         var title = document.getElementById('title-nosotros');
+        var btn = document.getElementById('vision-a');
+        var btnMision = document.getElementById('mision-a');
         if(title.innerHTML === 'Visión') {
             showNosotros()
             return 
         }
         title.innerHTML = "Visión";
+        btn.innerHTML = "NOSOTROS";
+        btnMision.innerHTML = "NUESTRA MISIÓN";
         var text = document.getElementById('text-nosotros');
         text.innerHTML = "Posicionarnos como agencia líder de la creatividad y producción en nuestro país. Desarrollar intervención internacional. Conservar siempre nuestros valores, como: Desarrollo constante de nuestros colaboradores.  Máxima innovación y calidad en nuestro servicios, procesos y entregables.";
 }
 
 function showMision() {
     var title = document.getElementById('title-nosotros');
+    var btn = document.getElementById('mision-a');
+    var btnVision = document.getElementById('vision-a');
     if(title.innerHTML === 'Misión') {
         showNosotros()
         return 
     }
     title.innerHTML = "Misión";
+    btn.innerHTML = "NOSOTROS";
+    btnVision.innerHTML = "NUESTRA VISIÓN";
     var text = document.getElementById('text-nosotros');
     text.innerHTML = "Ser la agencia que marque tendencia dentro de la industria de la comunicación, innovando y creando experiencias que generen historias con valor y propósito para nuestros clientes, sus marcas y audiencias.";
 
@@ -801,14 +809,18 @@ function showMision() {
 
 function showNosotros() {
     var title = document.getElementById('title-nosotros');
+    var btnMision = document.getElementById('mision-a');
+    var btnVision = document.getElementById('vision-a');
     title.innerHTML = "Nosotros";
+    btnMision.innerHTML = "NUESTRA MISIÓN";
+    btnVision.innerHTML = "NUESTRA VISIÓN";
     var text = document.getElementById('text-nosotros');
     text.innerHTML = "Somos una agencia creativa, productora, estratega. Integrada por creadores apasionados de las mejores historias.</p> <p>Inspiramos y conectamos a través de creatividad, innovación y la más alta calidad en cada una de nuestras acciones.</p>";
 }
 
-function scrollStartElement() {
-    document.getElementById("carrusel-services").scrollLeft += 200;
+function scrollStartElement(id) {
+    document.getElementById(id).scrollLeft += 400;
   }
-function scrollEndElement() {
-    document.getElementById("carrusel-services").scrollLeft -= 200;
+function scrollEndElement(id) {
+    document.getElementById(id).scrollLeft -= 400;
   }

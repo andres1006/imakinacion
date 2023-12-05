@@ -932,6 +932,26 @@ span.number {
     background-size: cover;
 }
 
+.btn-back-carrusel-services {
+    position: relative;
+    top: 50%;
+    left: 0%;
+    color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.btn-next-carrusel-services {
+    position: relative;
+    top: 50%;
+    right: 0%;
+    color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
 
 
 /* ==========================================================================

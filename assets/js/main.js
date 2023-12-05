@@ -772,4 +772,43 @@
 
 
 
+
+
 })(jQuery);
+
+function showVision() {
+        var title = document.getElementById('title-nosotros');
+        if(title.innerHTML === 'Visión') {
+            showNosotros()
+            return 
+        }
+        title.innerHTML = "Visión";
+        var text = document.getElementById('text-nosotros');
+        text.innerHTML = "Posicionarnos como agencia líder de la creatividad y producción en nuestro país. Desarrollar intervención internacional. Conservar siempre nuestros valores, como: Desarrollo constante de nuestros colaboradores.  Máxima innovación y calidad en nuestro servicios, procesos y entregables.";
+}
+
+function showMision() {
+    var title = document.getElementById('title-nosotros');
+    if(title.innerHTML === 'Misión') {
+        showNosotros()
+        return 
+    }
+    title.innerHTML = "Misión";
+    var text = document.getElementById('text-nosotros');
+    text.innerHTML = "Ser la agencia que marque tendencia dentro de la industria de la comunicación, innovando y creando experiencias que generen historias con valor y propósito para nuestros clientes, sus marcas y audiencias.";
+
+}
+
+function showNosotros() {
+    var title = document.getElementById('title-nosotros');
+    title.innerHTML = "Nosotros";
+    var text = document.getElementById('text-nosotros');
+    text.innerHTML = "Somos una agencia creativa, productora, estratega. Integrada por creadores apasionados de las mejores historias.</p> <p>Inspiramos y conectamos a través de creatividad, innovación y la más alta calidad en cada una de nuestras acciones.</p>";
+}
+
+function scrollStartElement() {
+    document.getElementById("carrusel-services").scrollLeft += 200;
+  }
+function scrollEndElement() {
+    document.getElementById("carrusel-services").scrollLeft -= 200;
+  }

@@ -41,6 +41,25 @@
     .hero-title {
         padding: 0 30px;
     }
+
+    .col-project {
+        display: flex;
+        flex-direction: column ;
+    }
+
+    .btn-back-carrusel {
+        display: none;
+    }
+
+    .col-service{
+        display: flex;
+        flex-direction: column ;
+    }
+
+    .loader-logo > img {
+        width: 300px;
+
+    }
 }
 
 /* // Extra small devices (portrait phones, less than 576px) */

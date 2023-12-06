@@ -198,8 +198,7 @@
                     onclick="scrollEndElement('carrusel-services')">
                     <img src="assets/img/btns/3x/btn-back@3x.png" alt="">
                 </div>
-                <div id="carrusel-services"
-                    style="display: flex; flex-direction: row; overflow: hidden; scroll-behavior: smooth; padding: 15px">
+                <div id="carrusel-services" class="col-service">
                     <div class="col-lg-4 mt-30">
                         <div class="service-item bg-main">
                             <div class="service-icon text-center">
@@ -334,7 +333,7 @@
                     </div>
                 </div>
 
-                <div id="carrusel-services-next" class="btn-next-carrusel"
+                <div id="carrusel-services-next" class="btn-back-carrusel"
                     onclick="scrollStartElement('carrusel-services')">
                     <img src="assets/img/btns/3x/btn-next@3x.png" alt="">
                 </div>
@@ -359,7 +358,7 @@
             <div class="row">
                 <div class="col-lg-12 mt-30">
                     <div class="title">
-                        <h2>Projects</h2>
+                        <h2>Proyectos</h2>
                     </div>
                 </div>
             </div>
@@ -368,8 +367,7 @@
                     <img src="assets/img/btns/3x/btn-back@3x.png" alt="">
                 </div>
 
-                <div id="carrusel-project"
-                    style="display: flex;flex-direction: row;overflow: hidden; scroll-behavior: smooth">
+                <div class="col-project" id="carrusel-project">
                     <div class="col-md-12 col-lg-6">
                         <!--    <a href="project-detail-light.html"> -->
                         <div class="project-content mt-50-lg ">
@@ -410,11 +408,13 @@
                         <!-- Project 08 -->
                         <!--   <a href="project-detail-light.html"> -->
                         <div class="project-content mt-60-lg">
-                            <div class="img-project">
-                                <img src="assets/img/portfolio/3x/project-4@3x.png" alt="">
+                            <div class="img-project" style="height: 320px;">
+                                <video autoplay muted loop>
+                                    <source src="assets/videos/IMG_6796.mp4" type="video/mp4">
+                                </video>
                             </div>
                             <div class="detail-project">
-                                <h3 style="color: white;">Samsung FREESTYLE</h3>
+                                <h3 style="color: white;">Samsung | Freestyle</h3>
                             </div>
                             <!--  </a> -->
                         </div>
@@ -437,15 +437,64 @@
                         </div>
 
                         <div class="project-content mt-50-lg">
-                            <div class="img-project">
-                                <img src="assets/img/portfolio/3x/project-4@3x.png" alt="">
+                            <div class="img-project" style="height: 320px;">
+                                <video autoplay muted loop>
+                                    <source src="assets/videos/IMG_2104.mp4" type="video/mp4">
+                                </video>
                             </div>
                             <div class="detail-project">
-                                <h3 style="color: white;">Samsung FREESTYLE</h3>
+                                <h3 style="color: white;">SHEIN | PopUp Guadalajara</h3>
                             </div>
                             <!--  </a> -->
                         </div>
                     </div>
+
+                    <div class="col-md-12 col-lg-6">
+                        <!-- Project 08 -->
+                        <!--   <a href="project-detail-light.html"> -->
+                        <div class="project-content mt-60-lg">
+                            <div class="img-project" style="height: 320px;">
+                                <video autoplay muted loop>
+                                    <source src="assets/videos/Clip AS s8 2.mp4" type="video/mp4">
+                                </video>
+                            </div>
+                            <div class="detail-project">
+                                <h3 style="color: white;">Paramount | Acapulco Shore</h3>
+                            </div>
+                            <!--  </a> -->
+                        </div>
+
+                        <div class="project-content mt-60-lg">
+                            <div class="img-project" style="height: 320px;">
+                                <video autoplay muted loop>
+                                    <source src="assets/videos/IMG_6124.mp4" type="video/mp4">
+                                </video>
+                            </div>
+                            <div class="detail-project">
+                                <h3 style="color: white;">Samsung | S10
+                                </h3>
+                            </div>
+                            <!--  </a> -->
+                        </div>
+                    </div>
+
+                    <div class="col-md-12 col-lg-6 centered">
+                        <!-- Project 08 -->
+                        <!--   <a href="project-detail-light.html"> -->
+                        <div class="project-content mt-50-lg">
+                            <div class="img-project" style="height: 320px;">
+                                <video autoplay muted loop>
+                                    <source src="assets/videos/IMG_3652.mp4" type="video/mp4">
+                                </video>
+                            </div>
+                            <div class="detail-project">
+                                <h3 style="color: white;">Paramount | Activación</h3>
+                            </div>
+                            <!--  </a> -->
+                        </div>
+
+                    </div>
+
                 </div>
 
                 <div id="carrusel-projects-back" class="btn-back-carrusel"
@@ -662,8 +711,7 @@
                 <div class="row">
                     <div class="col-lg-12 mt-30 ">
                         <div class="title centered">
-                            <h2>Construyendo juntos</h2>
-
+                            <h2 style="text-align: center;">Construyendo juntos</h2>
                         </div>
                     </div>
                 </div>
@@ -721,7 +769,7 @@
     </div> -->
 
     <!-- Start Contact -->
-    <section class="contact" data-scroll-index="6">
+    <section class="contact" data-scroll-index="7">
         <div class="bg-contact"></div>
         <div class="container">
             <div class="row">

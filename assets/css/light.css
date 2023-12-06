@@ -111,7 +111,7 @@ a:hover {
     display: block;
     margin-top: -40px;
     transform: rotate(46deg);
-   /*  transform: translate(-50%, -0%); */
+    /*  transform: translate(-50%, -0%); */
     left: 50%;
     background: #61C3D7;
 }
@@ -462,7 +462,7 @@ video {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius: 0px  0px 500px 0px;
+    border-radius: 0px 0px 500px 0px;
     box-shadow: 0px 9px 31px 6px rgba(0, 0, 0, .2);
     background-color: #e6e25e;
 }
@@ -473,7 +473,7 @@ video {
     width: 100%;
     right: 0;
     position: absolute;
-    background:#fff;
+    background: #fff;
 }
 
 .body-frame {
@@ -495,7 +495,7 @@ video {
     text-align: center;
     letter-spacing: 3px;
     position: relative;
-    background-color:  #4C76B0;
+    background-color: #4C76B0;
     text-transform: uppercase;
     font-size: 12px;
     padding: 15px 34px;
@@ -820,7 +820,15 @@ a.menu-link.active {
     width: 100%;
     background: url('../img/bg/3x/Recurso\ 2@3x.png');
     background-repeat: no-repeat;
-    background-size: 100% ;
+    background-size: 100%;
+}
+
+.col-service {
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    scroll-behavior: smooth;
+    padding: 15px
 }
 
 /* ==========================================================================
@@ -842,14 +850,18 @@ a.menu-link.active {
 .project-content {
     padding: 0 20px;
     margin: 0 0 50px 0;
-    filter: brightness(0.5);
 }
-.project-content:hover {
+
+.img-project:hover {
     filter: brightness(1);
     transition: all 0.3s ease;
 }
 
-.img-project > video {
+.img-project {
+    filter: brightness(0.5);
+}
+
+.img-project>video {
     position: relative;
     border-radius: 0px;
     aspect-ratio: 1/1;
@@ -919,7 +931,7 @@ span.number {
     width: 100%;
     background: url('../img/bg/3x/Recurso\ 3@3x.png');
     background-repeat: no-repeat;
-    background-size: 100% ;
+    background-size: 100%;
 }
 
 .bg-project {
@@ -941,9 +953,10 @@ span.number {
     justify-content: center;
     align-items: center
 }
-.btn-back-carrusel > img {
- width: 40px;
- margin: 10px;
+
+.btn-back-carrusel>img {
+    width: 40px;
+    margin: 10px;
 }
 
 .btn-next-carrusel {
@@ -956,9 +969,16 @@ span.number {
     align-items: center
 }
 
-.btn-next-carrusel > img {
+.btn-next-carrusel>img {
     width: 40px;
     margin: 10px;
+}
+
+.col-project {
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    scroll-behavior: smooth
 }
 
 
@@ -1034,7 +1054,7 @@ span.number {
     width: 100%;
     background: url('../img/bg/SVG/Recurso\ 8.svg');
     background-repeat: no-repeat;
-    background-size: 40% ;
+    background-size: 40%;
 }
 
 
@@ -1381,8 +1401,9 @@ a.phone {
     height: 300px;
     width: 50%;
     background: #fff;
-    box-shadow: 14px 14px 50px 7px rgba(0,0,0,.1);
+    box-shadow: 14px 14px 50px 7px rgba(0, 0, 0, .1);
 }
+
 .line-single-page {
     height: 40%;
     width: 1px;
@@ -1419,27 +1440,47 @@ label {
     font-size: 14px;
     letter-spacing: 1px;
 }
-input[type=text], select, textarea  {
-    width: 100%; /* Full width */
-    padding: 8px; /* Some padding */ 
-    border: 1px solid #ccc; /* Gray border */
-    border-radius: 4px; /* Rounded borders */
-    box-sizing: border-box; /* Make sure that padding and width stays in place */
-    margin-bottom: 10px; /* Bottom margin */
-    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
-  }
-input[type=email], select, textarea  {
-    width: 100%; /* Full width */
-    padding: 8px; /* Some padding */ 
-    border: 1px solid #ccc; /* Gray border */
-    border-radius: 4px; /* Rounded borders */
-    box-sizing: border-box; /* Make sure that padding and width stays in place */
-    margin-bottom: 10px; /* Bottom margin */
-    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
-  }
-  
-  /* Style the submit button with a specific background color etc */
-  input[type=submit] {
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    /* Full width */
+    padding: 8px;
+    /* Some padding */
+    border: 1px solid #ccc;
+    /* Gray border */
+    border-radius: 4px;
+    /* Rounded borders */
+    box-sizing: border-box;
+    /* Make sure that padding and width stays in place */
+    margin-bottom: 10px;
+    /* Bottom margin */
+    resize: vertical
+        /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+input[type=email],
+select,
+textarea {
+    width: 100%;
+    /* Full width */
+    padding: 8px;
+    /* Some padding */
+    border: 1px solid #ccc;
+    /* Gray border */
+    border-radius: 4px;
+    /* Rounded borders */
+    box-sizing: border-box;
+    /* Make sure that padding and width stays in place */
+    margin-bottom: 10px;
+    /* Bottom margin */
+    resize: vertical
+        /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
     background-color: #CA4F2B;
     color: white;
     padding: 12px 20px;
@@ -1447,10 +1488,9 @@ input[type=email], select, textarea  {
     border-radius: 30px;
     cursor: pointer;
     width: 200px;
-  }
-  
-  /* When moving the mouse over the submit button, add a darker green color */
-  input[type=submit]:hover {
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
     background-color: #a24225;
-  }
-  
+}

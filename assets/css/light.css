@@ -759,7 +759,14 @@ a.menu-link.active {
 .service-item {
     transition: all 0.3s ease;
     padding: 30px 30px;
-    box-shadow: 0px 9px 31px 6px rgba(0, 0, 0, .1);
+    box-shadow: 15px 6px 8px 3px rgba(0, 0, 0, .1);
+    overflow: hidden;
+}
+
+.service-item2 {
+    transition: all 0.3s ease;
+    padding: 30px 30px;
+    box-shadow: -11px 6px 8px 3px rgba(0, 0, 0, .1);
     overflow: hidden;
 }
 
@@ -951,7 +958,8 @@ span.number {
     color: red;
     display: flex;
     justify-content: center;
-    align-items: center
+    align-items: center;
+    cursor: pointer;
 }
 
 .btn-back-carrusel>img {
@@ -1493,4 +1501,25 @@ input[type=submit] {
 /* When moving the mouse over the submit button, add a darker green color */
 input[type=submit]:hover {
     background-color: #a24225;
+}
+
+
+#modalvideo{
+    position:fixed;
+    z-index:9999;
+    width:80vw;
+    height:80vh;
+    left:10vw;
+    top:10vh;
+    background:rgba(0,0,0,0.7);  
+}    
+#modalvideo > video {
+    border-radius: 0px;
+}    
+#close{
+    color:#FFFFFF;
+    position:absolute;
+    top:10px;
+    right:10px;
+    cursor: pointer;
 }

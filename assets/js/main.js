@@ -117,10 +117,10 @@
             });
 
         var LineScene = new ScrollMagic.Scene({
-                offset: -150,
-                triggerElement: this,
-                reverse: false
-            })
+            offset: -150,
+            triggerElement: this,
+            reverse: false
+        })
             .setTween(animateLine).addTo(controllerLine);
     });
 
@@ -145,10 +145,10 @@
             });
 
         var FadesScene = new ScrollMagic.Scene({
-                offset: -150,
-                triggerElement: this,
-                reverse: false
-            })
+            offset: -150,
+            triggerElement: this,
+            reverse: false
+        })
             .setTween(animateFades).addTo(controllerFades);
     });
 
@@ -201,11 +201,11 @@
             }, '-=0.5');
 
         var scene = new ScrollMagic.Scene({
-                offset: -150,
-                triggerElement: this,
-                reverse: false
-            })
-        
+            offset: -150,
+            triggerElement: this,
+            reverse: false
+        })
+
             .setTween(animateIn).addTo(controller);
 
     });
@@ -254,10 +254,10 @@
 
 
         var aboutScene = new ScrollMagic.Scene({
-                offset: -150,
-                triggerElement: this,
-                reverse: false
-            })
+            offset: -150,
+            triggerElement: this,
+            reverse: false
+        })
 
             .setTween(animateAbout).addTo(controllerAbout);
 
@@ -307,10 +307,10 @@
 
 
         var ServiceScene = new ScrollMagic.Scene({
-                offset: -150,
-                triggerElement: this,
-                reverse: false
-            })
+            offset: -150,
+            triggerElement: this,
+            reverse: false
+        })
 
             .setTween(animateService).addTo(controllerService);
 
@@ -359,10 +359,10 @@
 
 
         var TeamScene = new ScrollMagic.Scene({
-                offset: -150,
-                triggerElement: this,
-                reverse: false
-            })
+            offset: -150,
+            triggerElement: this,
+            reverse: false
+        })
 
             .setTween(animateTeam).addTo(controllerTeam);
 
@@ -408,10 +408,10 @@
 
 
         var NewsScene = new ScrollMagic.Scene({
-                offset: -150,
-                triggerElement: this,
-                reverse: false
-            })
+            offset: -150,
+            triggerElement: this,
+            reverse: false
+        })
 
             .setTween(animateNews).addTo(controllerNews);
 
@@ -453,10 +453,10 @@
             });
 
         var NewsScene = new ScrollMagic.Scene({
-                offset: -150,
-                triggerElement: this,
-                reverse: false
-            })
+            offset: -150,
+            triggerElement: this,
+            reverse: false
+        })
 
             .setTween(animateContact).addTo(controllerContact);
 
@@ -523,22 +523,22 @@
             }),
             TweenMax.fromTo(detail, 3, {
                 y: '0',
-               
+
             }, {
                 y: -100,
                 ease: Linear.easeNone,
-                
+
             }),
 
         ]);
 
         var Scrollscene = new ScrollMagic.Scene({
-                offset: -100,
-                triggerElement: this,
-                // duration: $(window).height(), 
-                duration: '140%'
-            })
-         
+            offset: -100,
+            triggerElement: this,
+            // duration: $(window).height(), 
+            duration: '140%'
+        })
+
             .setTween(tlLeftRight).addTo(controllera);
 
     });
@@ -625,10 +625,10 @@
                 }
             }
         });
-        $('.arrow-right.-team').on("click",function () {
+        $('.arrow-right.-team').on("click", function () {
             teamSlide.trigger('next.owl.carousel');
         })
-        $('.arrow-left.-team').on("click",function () {
+        $('.arrow-left.-team').on("click", function () {
             teamSlide.trigger('prev.owl.carousel');
         })
 
@@ -777,27 +777,27 @@
 })(jQuery);
 
 function showVision() {
-        var title = document.getElementById('title-nosotros');
-        var btn = document.getElementById('vision-a');
-        var btnMision = document.getElementById('mision-a');
-        if(title.innerHTML === 'Visión') {
-            showNosotros()
-            return 
-        }
-        title.innerHTML = "Visión";
-        btn.innerHTML = "NOSOTROS";
-        btnMision.innerHTML = "NUESTRA MISIÓN";
-        var text = document.getElementById('text-nosotros');
-        text.innerHTML = "Posicionarnos como agencia líder de la creatividad y producción en nuestro país. Desarrollar intervención internacional. Conservar siempre nuestros valores, como: Desarrollo constante de nuestros colaboradores.  Máxima innovación y calidad en nuestro servicios, procesos y entregables.";
+    var title = document.getElementById('title-nosotros');
+    var btn = document.getElementById('vision-a');
+    var btnMision = document.getElementById('mision-a');
+    if (title.innerHTML === 'Visión') {
+        showNosotros()
+        return
+    }
+    title.innerHTML = "Visión";
+    btn.innerHTML = "NOSOTROS";
+    btnMision.innerHTML = "NUESTRA MISIÓN";
+    var text = document.getElementById('text-nosotros');
+    text.innerHTML = "Posicionarnos como agencia líder de la creatividad y producción en nuestro país. Desarrollar intervención internacional. Conservar siempre nuestros valores, como: Desarrollo constante de nuestros colaboradores.  Máxima innovación y calidad en nuestro servicios, procesos y entregables.";
 }
 
 function showMision() {
     var title = document.getElementById('title-nosotros');
     var btn = document.getElementById('mision-a');
     var btnVision = document.getElementById('vision-a');
-    if(title.innerHTML === 'Misión') {
+    if (title.innerHTML === 'Misión') {
         showNosotros()
-        return 
+        return
     }
     title.innerHTML = "Misión";
     btn.innerHTML = "NOSOTROS";
@@ -819,8 +819,21 @@ function showNosotros() {
 }
 
 function scrollStartElement(id) {
-    document.getElementById(id).scrollLeft += 400;
-  }
+    document.getElementById(id).scrollLeft += document.getElementById(id).offsetWidth;
+}
 function scrollEndElement(id) {
-    document.getElementById(id).scrollLeft -= 400;
-  }
+    document.getElementById(id).scrollLeft -= document.getElementById(id).offsetWidth;
+}
+
+function abremodal(ruta) {
+    const modal = document.getElementById('modalvideo')
+    if(modal){
+        modal.remove();
+    }
+    $("body").append(`<div id="modalvideo"> <video autoplay controls> <source src="${ruta}" type="video/mp4"></video><div id="close" onclick="closemodal()"> Cerrar </div></div>`);
+}
+
+function closemodal() {
+    document.getElementById('modalvideo').remove();
+}
+

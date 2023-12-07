@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1259 664.25">
+<svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1259 653">
   <defs>
     <style>
       .cls-1 {
@@ -22,17 +22,17 @@
       }
 
       .cls-4 {
-        fill: #fff;
+        fill: #dadbda;
       }
     </style>
   </defs>
   <g id="Contenido">
     <g>
-      <rect class="cls-3" y="11.25" width="1259" height="653"/>
-      <path class="cls-4" d="M593.3,644.75c-179.66,0-325.3-136.66-325.3-305.25h0c0-168.58,145.64-305.25,325.3-305.25h219.41c179.66,0,325.3,136.67,325.3,305.25h0c0,168.59-145.64,305.25-325.3,305.25h-219.41Z"/>
+      <rect class="cls-3" width="1259" height="653"/>
+      <path class="cls-4" d="M613.33,633.5c-173.05,0-313.33-135.1-313.33-301.75h0c0-166.65,140.28-301.75,313.33-301.75h211.34c173.05,0,313.33,135.1,313.33,301.75h0c0,166.65-140.28,301.75-313.33,301.75h-211.34Z"/>
       <g>
-        <path class="cls-1" d="M89.54,664.25v-331.73c0-182.95,148.31-331.27,331.27-331.27h0"/>
-        <circle class="cls-2" cx="89.54" cy="564.32" r="14.06"/>
+        <path class="cls-1" d="M89.54,653v-331.73c0-182.95,148.01-319.77,330.96-319.77"/>
+        <circle class="cls-2" cx="89.54" cy="553.07" r="14.06"/>
       </g>
     </g>
   </g>

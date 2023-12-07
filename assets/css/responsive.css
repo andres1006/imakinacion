@@ -58,7 +58,12 @@
 
     .loader-logo > img {
         width: 300px;
+    }
 
+    .bg-project-title {
+        background: url('../img/bg/3x/bg-proyectos-responsive_1@3x.png');
+        background-size: contain;
+        background-repeat: no-repeat;
     }
 }
 

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 69.83 82.68">
+<svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 87.47 83.5">
   <defs>
     <style>
       .cls-1 {
@@ -7,27 +7,14 @@
         stroke: #64a973;
         stroke-linecap: round;
         stroke-miterlimit: 10;
-        stroke-width: 3.35px;
-      }
-
-      .cls-2 {
-        fill: #45ba5b;
-        stroke-width: 0px;
+        stroke-width: 2.5px;
       }
     </style>
   </defs>
   <g id="Contenido">
     <g>
-      <g>
-        <rect class="cls-2" x="55.3" y="26.81" width="14.52" height="55.86"/>
-        <rect class="cls-2" x="29.05" y="42.46" width="14.52" height="40.22"/>
-        <rect class="cls-2" x="2.79" y="55.86" width="14.52" height="26.81"/>
-      </g>
-      <g>
-        <line class="cls-1" x1="1.68" y1="44.69" x2="62.01" y2="4.47"/>
-        <line class="cls-1" x1="49.16" y1="1.68" x2="61.94" y2="4.47"/>
-        <line class="cls-1" x1="58.78" y1="17.17" x2="62.06" y2="4.51"/>
-      </g>
+      <path class="cls-1" d="M10.45,1.25h73.75c1.11,0,2.02.9,2.02,2.02v76.96c0,1.11-.9,2.02-2.02,2.02H3.27c-1.11,0-2.02-.9-2.02-2.02V10.45C1.25,5.37,5.37,1.25,10.45,1.25Z"/>
+      <path class="cls-1" d="M86.22,3.25v5.68c0,40.49-32.83,73.32-73.32,73.32H3.25"/>
     </g>
   </g>
 </svg>

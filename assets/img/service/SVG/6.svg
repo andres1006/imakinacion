@@ -1,33 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 91.75 91.75">
+<svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 127.03 83.5">
   <defs>
     <style>
       .cls-1 {
-        fill: none;
-        stroke: #ca4f2b;
         stroke-linecap: round;
-        stroke-linejoin: round;
-        stroke-width: 2.75px;
       }
 
-      .cls-2 {
-        fill: #ca4f2b;
-        stroke-width: 0px;
+      .cls-1, .cls-2 {
+        fill: none;
+        stroke: #ca4f2b;
+        stroke-linejoin: round;
+        stroke-width: 2.5px;
       }
     </style>
   </defs>
   <g id="Contenido">
     <g>
-      <circle class="cls-1" cx="45.87" cy="45.87" r="44.5"/>
-      <g>
-        <rect class="cls-1" x="23.82" y="23.62" width="44.11" height="44.5" rx="14.15" ry="14.15"/>
-        <line class="cls-1" x1="23.82" y1="37.41" x2="67.93" y2="37.41"/>
-        <g>
-          <line class="cls-1" x1="35.66" y1="24.02" x2="41.91" y2="37.35"/>
-          <line class="cls-1" x1="49.84" y1="24.02" x2="56.09" y2="37.35"/>
-        </g>
-        <path class="cls-2" d="M42.55,59.9v-14.28c0-.48.54-.75.93-.48l10.2,7.14c.33.23.33.73,0,.96l-10.2,7.14c-.39.27-.93,0-.93-.48Z"/>
-      </g>
+      <polygon class="cls-1" points="125.78 4.43 125.78 79.07 74.78 41.19 125.78 4.43"/>
+      <path class="cls-1" d="M74.23,65.95c-7.38,9.89-19.18,16.3-32.48,16.3C19.38,82.25,1.25,64.12,1.25,41.75S19.38,1.25,41.75,1.25c13.25,0,25.01,6.36,32.4,16.19"/>
+      <path class="cls-2" d="M57.87,79.02c-14.48-6.18-24.62-20.54-24.62-37.27S43.4,10.66,57.87,4.48"/>
+      <path class="cls-1" d="M107.33,17.72C99.96,7.73,88.1,1.25,74.73,1.25c-.15,0-.3.01-.45.01v80.97c.15,0,.3.01.45.01,13.49,0,25.44-6.59,32.8-16.73"/>
     </g>
   </g>
 </svg>

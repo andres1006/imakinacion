@@ -227,6 +227,13 @@ h1 span {
     position: relative;
 }
 
+.titleproject {
+    padding: 30px 0;
+    z-index: 2;
+    position: relative;
+    height: 200px;
+}
+
 .title h2 {
     font-size: 50px;
     font-family: 'Plus Jakarta Sans', sans-serif;
@@ -467,6 +474,25 @@ video {
     background-color: #e6e25e;
 }
 
+video::-webkit-media-controls-play-button,
+video::-webkit-media-controls-timeline,
+video::-webkit-media-controls-current-time-display,
+video::-webkit-media-controls-time-remaining-display,
+video::-webkit-media-controls-fullscreen-button {
+    display: none;
+}
+
+video::-webkit-media-controls.panel {
+    background-color: transparent !important;
+}
+video::-webkit-media-controls {
+    background-color: transparent !important;
+    position: relative;
+    bottom: 0;
+    right: 30%;
+    width: 100%;
+}
+
 .square-overlay {
     z-index: -10;
     height: 100%;
@@ -490,6 +516,20 @@ video {
 }
 
 .btn-main {
+    border-radius: 30px;
+    margin: 0 auto;
+    text-align: center;
+    letter-spacing: 3px;
+    position: relative;
+    background-color: #4C76B0;
+    text-transform: uppercase;
+    font-size: 12px;
+    padding: 15px 34px;
+    color: #ffffff;
+    transition: rgb(255, 255, 255) all ease .5s;
+}
+
+.btn-2 {
     border-radius: 30px;
     margin: 0 auto;
     text-align: center;
@@ -629,6 +669,7 @@ video {
 
 .data {
     text-align: left;
+    width: 100%;
 }
 
 .data ul {
@@ -936,7 +977,7 @@ span.number {
     position: absolute;
     height: 100%;
     width: 100%;
-    background: url('../img/bg/3x/Recurso\ 3@3x.png');
+    background: url('../img/bg/3x/bg-proyectos_1@3x.png');
     background-repeat: no-repeat;
     background-size: 100%;
 }
@@ -1350,7 +1391,7 @@ a.phone {
 }
 
 .bg-contact {
-    top: -65px;
+    top: -15px;
     position: absolute;
     height: calc(100% + 92px);
     width: 100%;

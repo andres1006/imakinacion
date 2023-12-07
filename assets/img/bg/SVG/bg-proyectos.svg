@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1257 153.28">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-2 {
+        letter-spacing: 0em;
+      }
+
+      .cls-3 {
+        fill: #3f3e3e;
+        font-family: AlegreyaSans-Regular, 'Alegreya Sans';
+        font-size: 70px;
+      }
+
+      .cls-4 {
+        fill: #e5e25f;
+        stroke-width: 0px;
+      }
+    </style>
+  </defs>
+  <g id="Fondo">
+    <polygon class="cls-4" points="1257 0 1257 153.28 0 76.64 1257 0"/>
+    <text class="cls-3" transform="translate(67.59 96.98) scale(1 1.03)"><tspan class="cls-1" x="0" y="0">P</tspan><tspan class="cls-2" x="35.42" y="0">r</tspan><tspan class="cls-1" x="57.96" y="0">oy</tspan><tspan x="120.26" y="0">ec</tspan><tspan class="cls-1" x="179.48" y="0">t</tspan><tspan x="200.83" y="0">os</tspan></text>
+  </g>
+</svg>

@@ -707,6 +707,41 @@
         });
     }
 
+        //partner slider
+        partnerSlider2();
+
+        function partnerSlider2() {
+            var aboutSlide = $('.partner2 .owl-carousel');
+            aboutSlide.owlCarousel({
+                loop: true,
+                margin: 30,
+                rtl:true,
+                mouseDrag: true,
+                autoplay: true,
+                center: false,
+                dots: true,
+                dragEndSpeed: 700,
+                smartSpeed: 2000,
+                responsiveClass: true,
+                autoplayHoverPause: true,
+                autoplayTimeout: 3000,
+                responsive: {
+                    0: {
+                        items: 2,
+                        margin: 0,
+                    },
+                    600: {
+                        items: 3,
+                        margin: 0,
+                    },
+                    1000: {
+                        items: 4,
+                        margin: 0,
+                    }
+                }
+            });
+        }
+
 
 
 

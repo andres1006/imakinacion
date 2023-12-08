@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 524.08 735">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke: #fff;
+        stroke-width: 2.5px;
+      }
+
+      .cls-1, .cls-2 {
+        fill: none;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2 {
+        stroke: #dadbda;
+        stroke-width: 2.22px;
+      }
+
+      .cls-3 {
+        fill: #ae458d;
+      }
+
+      .cls-3, .cls-4 {
+        stroke-width: 0px;
+      }
+
+      .cls-4 {
+        fill: #e5e25f;
+      }
+    </style>
+  </defs>
+  <g id="Contenido">
+    <g>
+      <line class="cls-1" x1="193.5" y1="352" x2="193.5" y2="735"/>
+      <g>
+        <path class="cls-4" d="M0,0v296.41c0,32.91,26.68,59.59,59.59,59.59h245.12V61.93c0-33.22,26.93-60.15,60.15-60.15"/>
+        <g>
+          <circle class="cls-3" cx="159.77" cy="207.23" r="148.77"/>
+          <path class="cls-3" d="M304.71,58.45v297.55c82.17,0,148.77-66.61,148.77-148.77S386.87,58.45,304.71,58.45Z"/>
+          <path class="cls-3" d="M449.69,78.36v257.73c44.47-25.72,74.39-73.8,74.39-128.87s-29.92-103.14-74.39-128.87Z"/>
+        </g>
+        <path class="cls-2" d="M304.71,356c-82.17,0-148.77-66.61-148.77-148.77S222.54,58.45,304.71,58.45"/>
+      </g>
+      <circle class="cls-4" cx="193.32" cy="472.64" r="16.64"/>
+    </g>
+  </g>
+</svg>

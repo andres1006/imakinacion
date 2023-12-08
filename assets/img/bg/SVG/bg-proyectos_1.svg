@@ -3,28 +3,12 @@
   <defs>
     <style>
       .cls-1 {
-        letter-spacing: -.01em;
-      }
-
-      .cls-2 {
-        fill: #3f3e3e;
-        font-family: AlegreyaSans-Bold, 'Alegreya Sans';
-        font-size: 60px;
-        font-weight: 700;
-      }
-
-      .cls-3 {
-        letter-spacing: 0em;
-      }
-
-      .cls-4 {
         fill: #e5e25f;
         stroke-width: 0px;
       }
     </style>
   </defs>
   <g id="Fondo">
-    <polygon class="cls-4" points="1257 0 1257 153.28 0 76.64 1257 0"/>
-    <text class="cls-2" transform="translate(72.59 87.96) scale(1 1.03)"><tspan class="cls-3" x="0" y="0">P</tspan><tspan x="32.76" y="0">r</tspan><tspan class="cls-1" x="53.64" y="0">oy</tspan><tspan x="108.66" y="0">ec</tspan><tspan class="cls-3" x="160.08" y="0">t</tspan><tspan x="179.94" y="0">os</tspan></text>
+    <polygon class="cls-1" points="0 0 0 153.28 1257 76.64 0 0"/>
   </g>
 </svg>

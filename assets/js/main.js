@@ -865,7 +865,7 @@ function abremodal(ruta) {
     if(modal){
         modal.remove();
     }
-    $("body").append(`<div id="modalvideo"> <video autoplay muted controls> <source src="${ruta}" type="video/mp4"></video><div id="close" onclick="closemodal()"> Cerrar </div></div>`);
+    $("body").append(`<div id="modalvideo"> <video autoplay muted controls preload="auto" poster="assets/img/POSTER-video.png" ><source src="${ruta}" type="video/mp4"></video><div id="close" onclick="closemodal()"> Cerrar </div></div>`);
 }
 
 function closemodal() {
